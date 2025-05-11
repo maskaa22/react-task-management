@@ -1,0 +1,10 @@
+.chart {
+  background-color: #fff;
+  border-radius: 10px;
+}
+.tooltip {
+  background-color: #141522;
+  padding: 8px 18px;
+  border-radius: 10px;
+  color: #ffffff;
+}

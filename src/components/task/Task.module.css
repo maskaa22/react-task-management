@@ -1,0 +1,47 @@
+.innerContainer {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+.nameContainer {
+  margin: 16px 0;
+}
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+.thema {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: #54577a;
+}
+.positionTitleProgress {
+  display: flex;
+  justify-content: space-between;
+}
+.progressContainer {
+  margin-bottom: 20px;
+}
+.progress {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+.prosent {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+.dataContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.data {
+  display: flex;
+  gap: 8px;
+}

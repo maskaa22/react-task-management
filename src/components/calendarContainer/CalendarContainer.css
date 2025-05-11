@@ -1,0 +1,50 @@
+.calendar {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.rdp-day {
+  border-radius: 50%;
+}
+.rdp-weekday {
+  font-size: 16px;
+}
+
+.rdp-nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.rdp-chevron {
+  fill: #54577a;
+}
+
+.todayDay {
+  font-weight: 600;
+}
+
+.rdp {
+  --rdp-accent-color: #546fff;
+  --rdp-background-color: transparent;
+}
+
+.rdp-months {
+  margin: 0 auto;
+}
+.rdp-month_caption {
+  justify-content: center;
+}
+.selected-column {
+  background-color: #141522 !important;
+  color: white;
+}
+
+.selectedDay {
+  background-color: #546fff !important;
+  color: white !important;
+  border-radius: 50%;
+}

@@ -1,0 +1,10 @@
+.innerContainer {
+
+}
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.btnContainer {
+    display: flex;
+}

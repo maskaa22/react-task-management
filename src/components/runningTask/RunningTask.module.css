@@ -1,0 +1,44 @@
+.innerContainer {
+  padding: 20px;
+  background-color: #141522;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+.runningTask {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: -0.03em;
+  margin-top: 20px;
+}
+.progressContainer {
+  display: flex;
+      align-items: center;
+}
+.circul {
+  width: 68px;
+  height: 68px;
+  margin-right: 20px;
+}
+.allTask {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+.worlTask {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #8e92bc;
+}

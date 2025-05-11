@@ -1,0 +1,16 @@
+.task {
+  margin-top: 32px;
+  background-color: #fff;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.title {
+  margin-left: 20px;
+}
+.line {
+  width: 85%;
+  margin: 0 auto;
+  border: none;
+  height: 1px;
+  background-color: #F5F5F7;
+}
