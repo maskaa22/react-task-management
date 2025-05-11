@@ -1,0 +1,21 @@
+.chart {
+  margin-bottom: 32px;
+  background-color: #f5f5f7;
+  border-radius: 10px;
+  padding: 20px;
+}
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+.select {
+  background-color: transparent;
+}

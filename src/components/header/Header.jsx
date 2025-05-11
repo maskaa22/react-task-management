@@ -1,0 +1,98 @@
+import React from "react";
+import c from "./Header.module.css";
+
+const Header = () => {
+  return (
+    <header className={c.header}>
+      <div className="container">
+        <div className={c.innerContainer}>
+          <svg
+            width="24px"
+            height="24px"
+            viewBox="0 0 72 72"
+            id="emoji"
+            xmlns="http://www.w3.org/2000/svg"
+            className={c.menu}
+          >
+            <g id="color" />
+            <g id="hair" />
+            <g id="skin" />
+            <g id="skin-shadow" />
+            <g id="line">
+              <line
+                x1="16"
+                x2="56"
+                y1="26"
+                y2="26"
+                fill="none"
+                stroke="#8E92BC"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-miterlimit="10"
+                stroke-width="2"
+              />
+              <line
+                x1="16"
+                x2="56"
+                y1="36"
+                y2="36"
+                fill="none"
+                stroke="#8E92BC"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-miterlimit="10"
+                stroke-width="2"
+              />
+              <line
+                x1="16"
+                x2="56"
+                y1="46"
+                y2="46"
+                fill="none"
+                stroke="#8E92BC"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-miterlimit="10"
+                stroke-width="2"
+              />
+            </g>
+          </svg>
+          <div>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className={c.notification}
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M2.91737 11.4893V11.3068C2.94415 10.7669 3.11719 10.2437 3.41865 9.79134C3.92044 9.24789 4.26394 8.58193 4.41312 7.86332C4.41312 7.30792 4.41312 6.74459 4.46163 6.18919C4.71226 3.51535 7.35609 1.66667 9.96757 1.66667H10.0322C12.6437 1.66667 15.2876 3.51535 15.5463 6.18919C15.5948 6.74459 15.5463 7.30792 15.5867 7.86332C15.7379 8.58359 16.081 9.25163 16.5812 9.79928C16.8849 10.2477 17.0582 10.7689 17.0824 11.3068V11.4813C17.1005 12.2067 16.8507 12.914 16.379 13.4728C15.7558 14.1262 14.9101 14.5327 14.002 14.6154C11.3392 14.901 8.65255 14.901 5.98971 14.6154C5.08264 14.5292 4.23815 14.1233 3.61269 13.4728C3.14835 12.9136 2.90189 12.2105 2.91737 11.4893Z"
+                stroke="#8E92BC"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M7.96246 17.3765C8.37853 17.8987 8.98951 18.2367 9.66021 18.3156C10.3309 18.3945 11.006 18.2079 11.5361 17.797C11.6991 17.6755 11.8458 17.5342 11.9727 17.3765"
+                stroke="#8E92BC"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <img
+              src="./header/profil.png"
+              alt="profile"
+              className={c.profile}
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;

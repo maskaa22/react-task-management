@@ -1,0 +1,53 @@
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.infoProfile {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  align-items: center;
+}
+.allInfo {
+  display: flex;
+}
+.foto {
+  margin-right: 8px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+.job {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: -0.01em;
+}
+.follow {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #546fff;
+}
+.infoTask,
+.task,
+.star {
+  display: flex;
+  gap: 8px;
+}
+.infoTask {
+  justify-content: space-between;
+}
+.task,
+.star {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
