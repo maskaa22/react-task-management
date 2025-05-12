@@ -5,6 +5,7 @@
 .innerContainer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .menu {
   padding: 10px;
@@ -18,4 +19,26 @@
 }
 .profile {
   margin-left: 16px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.03em;
+  margin-bottom: 8px;
+  color: #141522;
+}
+.text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #54577a;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    background-color: #fcfcfc;
+  }
 }

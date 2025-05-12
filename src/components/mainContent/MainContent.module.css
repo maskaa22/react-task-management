@@ -10,13 +10,25 @@
   color: #141522;
 }
 .text {
-    font-weight: 500;
-font-size: 14px;
-line-height: 150%;
-letter-spacing: -0.02em;
-color: #54577A;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #54577a;
 }
 .rightPanel {
-  background-color: #F5F5F7;
+  background-color: #f5f5f7;
   padding: 24px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .tabDecActiv {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 12px 0 16px;
+  }
+  .rightPanel {
+    background-color: #fcfcfc;
+  }
 }

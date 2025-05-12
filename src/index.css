@@ -10,3 +10,21 @@ body {
 .container {
   padding: 0 24px 24px;
 }
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 0 32px;
+  }
+}
+/* @media only screen and (min-width: 1024px) {
+  .container {
+    padding: 0 72px;
+  }
+} */
+/* 1280 */
+/* @media only screen and (min-width: 1440px) {
+  .container {
+    padding: 0 90px;
+  }
+} */

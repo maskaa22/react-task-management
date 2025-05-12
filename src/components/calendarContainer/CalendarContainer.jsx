@@ -49,7 +49,7 @@ const CalendarContainer = () => {
           selected: "selectedDay",
           today: "todayDay",
           disabled: "hidden-day",
-          selectedColumn: "selected-column",
+          selectedColumn: "selectedColumn",
         }}
         formatters={formatters}
         modifiers={modifiers}

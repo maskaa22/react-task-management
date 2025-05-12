@@ -1,7 +1,10 @@
-import React from "react";
+
 import c from "./Header.module.css";
 
-const Header = () => {
+const Header = ({isLargeScreen}) => {
+
+  
+
   return (
     <header className={c.header}>
       <div className="container">
@@ -57,6 +60,12 @@ const Header = () => {
               />
             </g>
           </svg>
+          {
+            isLargeScreen && <div className={c.greetings}>
+                      <h1 className={c.title}>Hi, Skylar Dias</h1>
+                      <p className={c.text}>Let's finish your task today!</p>
+                    </div>
+          }
           <div>
             <svg
               width="20"

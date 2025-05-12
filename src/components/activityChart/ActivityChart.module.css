@@ -19,3 +19,11 @@
 .select {
   background-color: transparent;
 }
+
+@media only screen and (min-width: 768px) {
+  .chart {
+    margin-bottom: 0;
+    width: 462px;
+  }
+}
+

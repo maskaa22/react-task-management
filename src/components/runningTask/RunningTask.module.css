@@ -22,7 +22,7 @@
 }
 .progressContainer {
   display: flex;
-      align-items: center;
+  align-items: center;
 }
 .circul {
   width: 68px;
@@ -41,4 +41,18 @@
   line-height: 150%;
   letter-spacing: -0.02em;
   color: #8e92bc;
+}
+
+@media only screen and (min-width: 768px) {
+  .innerContainer {
+    margin-bottom: 0;
+    display: block;
+    padding: 20px;
+    width: 194px;
+
+    height: fit-content;
+  }
+  .runningTask {
+    margin: 16px 0;
+  }
 }
