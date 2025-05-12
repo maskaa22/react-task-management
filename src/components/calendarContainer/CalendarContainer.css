@@ -25,6 +25,7 @@
 
 .todayDay {
   font-weight: 600;
+  background-color: #f5f5f7;
 }
 
 .rdp {
@@ -38,7 +39,7 @@
 .rdp-month_caption {
   justify-content: center;
 }
-.selected-column {
+.selectedColumn {
   background-color: #141522 !important;
   color: white;
 }
@@ -47,4 +48,12 @@
   background-color: #546fff !important;
   color: white !important;
   border-radius: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  .calendar {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+  }
 }

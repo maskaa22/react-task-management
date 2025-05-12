@@ -11,7 +11,7 @@ const SwiperContainer = ({title, flag}) => {
   return (
     <div className={c.innerContainer}>
       <div className={c.topContainer}>
-        <h2>{title}</h2>
+        <h2 className={c.title}>{title}</h2>
         <div className={c.btnContainer}>
           <div className="btn-prev">
             <GrLinkPrevious className="icon-btn-prev" />

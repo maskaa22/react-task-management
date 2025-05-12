@@ -15,6 +15,8 @@ const Chart = () => {
     { name: "T", value: 3 },
     { name: "W", value: 2 },
     { name: "T", value: 3 },
+    { name: "F", value: 4 },
+    { name: "S", value: 2 },
   ].map((d) => ({
     ...d,
     shadowValue: d.value - 0.3, // зсув вниз
@@ -45,7 +47,7 @@ const Chart = () => {
     <ResponsiveContainer width="100%" height={200} className={c.chart}>
       <LineChart
         data={data}
-        margin={{ top: 20, right: 20, bottom: 0, left: 0 }}
+        margin={{ top: 20, right: 20, bottom: 0, left: 8 }}
       >
         <XAxis
           dataKey="name"

@@ -1,5 +1,5 @@
-.innerContainer {
-
+.title {
+    margin-bottom: 20px;
 }
 .topContainer {
     display: flex;
@@ -8,3 +8,4 @@
 .btnContainer {
     display: flex;
 }
+
