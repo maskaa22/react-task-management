@@ -1,11 +1,10 @@
 .title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .topContainer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .btnContainer {
-    display: flex;
+  display: flex;
 }
-

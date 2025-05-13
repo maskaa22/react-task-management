@@ -7,7 +7,7 @@ import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
 import Mentor from "../mentor/Mentor";
 import Task from "../task/Task";
 
-const SwiperContainer = ({title, flag}) => {
+const SwiperContainer = ({ title, flag }) => {
   return (
     <div className={c.innerContainer}>
       <div className={c.topContainer}>
@@ -37,12 +37,7 @@ const SwiperContainer = ({title, flag}) => {
           },
         }}
       >
-        <SwiperSlide>
-          {
-            flag === 'mentor' ? <Mentor /> : <Task/>
-          }
-          
-        </SwiperSlide>
+        <SwiperSlide>{flag === "mentor" ? <Mentor /> : <Task />}</SwiperSlide>
       </Swiper>
     </div>
   );

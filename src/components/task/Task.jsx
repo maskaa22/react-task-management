@@ -4,7 +4,10 @@ import c from "./Task.module.css";
 const Task = () => {
   return (
     <div className={c.innerContainer}>
-      <img src="./tasks/task1.png" />
+      <div className={c.fotoTask}>
+        <img src="./tasks/task1.png" />
+      </div>
+
       <div className={c.nameContainer}>
         <h4 className={c.title}>Creating Mobile App Design</h4>
         <p className={c.thema}>UI UX Design</p>

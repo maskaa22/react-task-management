@@ -52,9 +52,8 @@
   letter-spacing: -0.02em;
 }
 
-
-@media only screen and (min-width: 768px)  {
-    .card {
-        margin-bottom: 32px;
-}
+@media only screen and (min-width: 768px) {
+  .card {
+    margin-bottom: 32px;
+  }
 }
