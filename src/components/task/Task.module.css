@@ -46,9 +46,20 @@
   gap: 8px;
 }
 
-
-@media only screen and (min-width: 768px)  {
-    .innerContainer {
-        margin-bottom: 32px;
+@media only screen and (min-width: 768px) {
+  .innerContainer {
+    margin-bottom: 32px;
+  }
 }
+@media only screen and (min-width: 1024px) {
+  .innerContainer {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .fotoTask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -56,3 +56,9 @@
     margin: 16px 0;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .innerContainer {
+    width: 250px;
+  }
+}

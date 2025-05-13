@@ -18,7 +18,7 @@ const RunningTask = () => {
             textColor: "#fff",
             pathColor: "#4A6CF7",
             trailColor: "#eee",
-            textSize: "26px"
+            textSize: "26px",
           })}
           className={c.circul}
         />

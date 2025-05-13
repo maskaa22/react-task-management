@@ -26,7 +26,7 @@ const CalendarContainer = () => {
   };
 
   const handleDayClick = (date) => {
-    const weekdayIndex = date.getDay(); 
+    const weekdayIndex = date.getDay();
     setSelectedWeekday(weekdayIndex);
   };
 

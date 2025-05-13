@@ -32,3 +32,40 @@
     background-color: #fcfcfc;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .blockPosition {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .containerMenu {
+    flex-shrink: 0;
+    height: 1032px;
+  }
+  .contentArea {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* @media only screen and (min-width: 1280px) {
+    .containerMenu {
+    height: 1082px;
+  }
+} */
+@media only screen and (min-width: 1440px) {
+  .contentArea {
+    flex-direction: row;
+  }
+
+  .mainContant {
+    flex: 1;
+  }
+
+  .rightPanel {
+    background-color: #f5f5f7;
+    padding: 24px 0;
+    flex-shrink: 0;
+  }
+}
